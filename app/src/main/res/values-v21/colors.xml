@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <color name="colorPrimary">#152E44</color>
+        <color name="colorPrimaryDark">#218BF9</color>
+        <color name="colorAccent">#152E44</color>
+        <color name="bg_view_sms">#ffd423</color>
+        <color name="bg_view_otp">#fc6d38</color>
+        <color name="tw__composer_white">#ffffffff</color>
+        <color name="tw__composer_black">#ff292f33</color>
+</resources>

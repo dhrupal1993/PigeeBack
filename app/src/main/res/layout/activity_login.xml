@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        >
+
+        <LinearLayout
+            android:id="@+id/lv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="2">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:gravity="left"
+                android:src="@drawable/user" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.3"
+                android:gravity="center_vertical"
+                android:text="LOGIN"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lv1"
+            android:padding="2dp">
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tilname"
+            android:padding="2dp">
+            <AutoCompleteTextView
+                android:id="@+id/txtemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:singleLine="true" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilmobileno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tilemail"
+            android:padding="2dp">
+            <AutoCompleteTextView
+                android:id="@+id/txtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:singleLine="true" />
+        </android.support.design.widget.TextInputLayout>
+
+        <ToggleButton
+            android:id="@+id/toggle"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:background="@drawable/toggle_selector"
+            android:checked="false"
+            android:text=""
+            android:textOff=""
+            android:textOn=""
+            android:layout_below="@+id/tilmobileno"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:text="SERVICE PROVIDER"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_above="@+id/btnLogin"
+            android:layout_toRightOf="@+id/toggle"
+            android:layout_toEndOf="@+id/toggle"
+            android:layout_marginStart="9dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnLogin"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_toLeftOf="@id/toggle"
+            android:text="SERVICE SEEKER"
+            android:layout_marginRight="10dp"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textColor="#fff"
+            android:theme="@style/AppTheme.Button"
+            android:text="LOGIN"
+            android:layout_below="@+id/toggle"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="29dp" />
+
+        <TextView android:id="@+id/linkSignup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/btnLogin"
+            android:text="New to Pigeeback ? Register Here !"
+            android:gravity="center"
+            android:textSize="16dip"/>
+
+
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/btn_google"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_below="@id/linkSignup"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="40dp" />
+
+        <Button
+            android:id="@+id/facebook_login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/btn_google"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:orientation="horizontal"
+            android:text="@string/loginwithfacebook"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_corner">
+
+        </Button>
+
+        <com.twitter.sdk.android.core.identity.TwitterLoginButton
+            android:id="@+id/twitter_login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@id/facebook_login_button"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+
+     <!--   <Button
+            android:id="@+id/btnClear"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/btnLogin"
+            android:textColor="@color/colorAccent"
+            android:background="#fff"
+            android:theme="@style/AppTheme.ButtonBorderless"
+            android:text="Clear" />-->
+        
+    </RelativeLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

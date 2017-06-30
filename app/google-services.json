@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "179383057740",
+    "project_id": "firebase-pigeeback"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179383057740:android:7dde45d6d2afd22b",
+        "android_client_info": {
+          "package_name": "com.eleganceinfoways.pigeeback"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179383057740-60da6fs97cd1h1aq9s0do1nqg78fd0t2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.eleganceinfoways.pigeeback",
+            "certificate_hash": "C157642BAC0A8D265D74EAB1829EE85A7FCC2C42"
+          }
+        },
+        {
+          "client_id": "179383057740-6a186cv3h64lt4eeantci5kamtom0ocu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNX1tQZXIAwYWfyLAQ6lvI2fkWcmvv42U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">PigeeBack</string>
+    <string name="app_id">123</string>
+    <string name="msg_sit_back">Sit back &amp; Relax! while we verify your mobile number</string>
+    <string name="msg_manual_otp">(Enter the OTP below in case if we fail to detect the SMS automatically)</string>
+    <string name="lbl_enter_otp">Enter OTP</string>
+    <string name="lbl_submit">SUBMIT</string>
+    <string name="msg_enter_mobile">Enter your mobile number to get started!</string>
+    <string name="lbl_name">Name</string>
+    <string name="lbl_email">Email</string>
+    <string name="lbl_mobile">Mobile</string>
+    <string name="lbl_next">NEXT</string>
+    <string name="title_activity_main_drawer">MainDrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">298886237203592</string>
+
+
+    <!--Spinner Array-->
+    <string-array name="tl">
+        <item>FTL/LTL</item>
+        <item>FTL</item>
+        <item>LTL</item>
+    </string-array>
+
+    <string-array name="status">
+        <item>PICKED</item>
+        <item>PROCESSING</item>
+        <item>DELIVERED</item>
+    </string-array>
+
+<string-array name="routes">
+        <item>SELECT</item>
+        <item>WEEKLY</item>
+        <item>MONTHLY</item>
+        <item>ONCE OFF</item>
+    </string-array>
+
+
+    <string-array name="itemtype">
+        <item>Select Item</item>
+        <item>Agricultural and Food</item>
+        <item>Construction Material</item>
+        <item>Machinery</item>
+        <item>Chemicals and Liquids</item>
+        <item>Coal And Bulk Cargo</item>
+        <item>Electronics</item>
+        <item>Consumer Durables</item>
+        <item>Fertilizers</item>
+        <item>Furniture</item>
+        <item>Industrial Goods</item>
+        <item>Steel And Metal Products</item>
+        <item>Textiles</item>
+        <item>Automotive</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <!--Messages-->
+    <string name="no_internet">No Internet Available.</string>
+    <string name="service_seeker">SERVICE SEEKER</string>
+    <string name="service_provider">SERVICE PROVIDER</string>
+    <string name="email_validation">Please enter valid Email.</string>
+    <string name="data_validation">Please enter valid data.</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="signup">SIGN UP</string>
+    <string name="already_account">Already have an account? Login here</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="phone">Phone</string>
+    <string name="loginwithfacebook">Login With Facebook</string>
+    <string name="source">From</string>
+    <string name="todate">To Date</string>
+    <string name="fromdate">From Date</string>
+    <string name="destination">Destination</string>
+    <string name="description">Package Description</string>
+    <string name="remarks">Remarks</string>
+    <string name="weight">Weight(in tons)</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="set_to">Set From - To</string>
+    <string name="calc_dist">Distance</string>
+    <string name="search">Search</string>
+    <string name="swap">Swap places</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="postroute">Post Route</string>
+    <string name="post">Post</string>
+    <string name="chooseimage">Choose Image</string>
+    <string name="choosevehicleimage">Choose Vehicle Image</string>
+    <string name="location_permission">To use Current location you need to grant this permission. </string>
+    <string name="authenticting">Authenticating.. </string>
+    <string name="wrong_otp">Wrong OTP Please Try Again. </string>
+    <string name="welcome">Welcome </string>
+    <string name="logoutmsg">Are you sure you want to Logout? </string>
+
+
+</resources>

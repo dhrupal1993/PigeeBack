@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/faq"
+                android:title="FAQ" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/contact"
+                android:title="Contact Pigeeback" />
+        </menu>
+    </item>
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/track"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_tracknow"
+            android:icon="@drawable/track"
+            android:title="Track Now"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/chat"
+            android:title="Chat"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_nearby_provider"
+            android:icon="@drawable/nearbuy"
+            android:title="Nearby Provider"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_post_route"
+            android:icon="@drawable/post_route"
+            android:title="Post A Route" />
+        <item
+            android:id="@+id/nav_post_pickup"
+            android:icon="@drawable/post_pickup"
+            android:title="Post A Pickup" />
+        <item
+            android:id="@+id/nav_bid_pickup"
+            android:icon="@drawable/bid_pickup"
+            android:title="Bid A Pickup"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_edit_ac"
+            android:icon="@drawable/edit_new"
+            android:title="Edit Account" />
+
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/services"
+            android:title="Services" />
+        <item
+            android:id="@+id/nav_my_list"
+            android:icon="@drawable/list"
+            android:title="My List" />
+
+        <item
+            android:id="@+id/nav_orders"
+            android:icon="@drawable/orders"
+            android:title="Orders" />
+
+        <item
+            android:id="@+id/nav_customers"
+            android:icon="@drawable/users"
+            android:title="Customers" />
+
+        <item
+            android:id="@+id/nav_service_providers"
+            android:icon="@drawable/sprovider"
+            android:title="Service Providers" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logou"
+            android:title="Logout" />
+        <!-- <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />-->
+    </group>
+
+</menu>
