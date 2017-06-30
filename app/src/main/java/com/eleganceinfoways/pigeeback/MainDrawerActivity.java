@@ -195,7 +195,7 @@ public class MainDrawerActivity extends AppCompatActivity implements NavigationV
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {
-
+z
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
